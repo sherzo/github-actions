@@ -16,9 +16,9 @@ Veremos ejemplos para aplicaciones en diversos lenguajes de programación, pero 
 
 1. 😬 ¿Pipelines? GitHub Acti… ¿Qué?
     1. 🏆 La MEJOR HERRAMIENTA de PROGRAMACIÓN del 2019 🏆
-    2. ✌️ Como configurar IntelliJ o VSCode para programar GitHub Actions
+    2. ✌️ [Como configurar IntelliJ o VSCode para programar GitHub Actions](./notes/1-configurando-editor.md)
 2. ✍️ ¡Al turrón! Construyendo nuestro primer Workflow de GitHub Actions
-    1. 🏋️‍♀️ Nuestro primer Workflow pasito a pasito
+    1. [🏋️‍♀️ Nuestro primer Workflow pasito a pasito](./notes/2-nuestro-primer-workflow.md)
     2. ⚡️ Optimizar feedback loop al desarrollar nuestro Workflow
     3. 💻 Validaciones en Pull Requests: Ganando consistencia y robustez en el equipo
 3. ♻️ Integración continua con GitHub actions
