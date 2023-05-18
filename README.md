@@ -1,19 +1,5 @@
 # Integración Continua con GitHub Actions
 
-## COURSE SUMMARY
-
-¡Consigue una Integración Continua de la que te puedas fiar y que sea rapidísima! Gracias a GitHub Actions veremos como lograrlo 🐙
-
-## COURSE DESCRIPTION
-
-💸 ¡Primera lección disponible sin registro!
-
-GitHub Actions ha entrado en el terreno "tarde", pero pisando muy fuerte. En este curso vamos a ver todo lo que nos tiene por ofrecer, pero sobretodo, vamos a ver nuestra versión para implementar una Integración Continua de calidad 👌
-
-Veremos ejemplos para aplicaciones en diversos lenguajes de programación, pero el curso es totalmente agnóstico (todo es muy fácilmente extrapolable).
-
-## Qué aprenderás en este curso de GitHub Actions
-
 1. 😬 ¿Pipelines? GitHub Acti… ¿Qué?
     1. 🏆 La MEJOR HERRAMIENTA de PROGRAMACIÓN del 2019 🏆
     2. ✌️ [Como configurar IntelliJ o VSCode para programar GitHub Actions](./notes/1-configurando-editor.md)
