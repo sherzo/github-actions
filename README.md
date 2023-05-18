@@ -5,7 +5,7 @@
     2. ✌️ [Como configurar IntelliJ o VSCode para programar GitHub Actions](./notes/1-configurando-editor.md)
 2. ✍️ ¡Al turrón! Construyendo nuestro primer Workflow de GitHub Actions
     1. [🏋️‍♀️ Nuestro primer Workflow pasito a pasito](./notes/2-nuestro-primer-workflow.md)
-    2. ⚡️ Optimizar feedback loop al desarrollar nuestro Workflow
+    2. [⚡️ Optimizar feedback loop al desarrollar nuestro Workflow](./notes/3-optimizar-feedback-loop-al-desarrollar-workflow.md)
     3. 💻 Validaciones en Pull Requests: Ganando consistencia y robustez en el equipo
 3. ♻️ Integración continua con GitHub actions
     1. ✅ Ejecutar pirámide de tests
