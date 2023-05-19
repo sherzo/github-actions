@@ -8,7 +8,7 @@
     2. [⚡️ Optimizar feedback loop al desarrollar nuestro Workflow](./notes/3-optimizar-feedback-loop-al-desarrollar-workflow.md)
     3. 💻 Validaciones en Pull Requests: Ganando consistencia y robustez en el equipo
 3. ♻️ Integración continua con GitHub actions
-    1. ✅ Ejecutar pirámide de tests
+    1. ✅ [Ejecutar pirámide de tests](./notes/5-ejecutar-piramide-de-tests.md)
     2. ♻️ ¿Qué es la Integración Continua?
     3. 📊 Reportes de resultados: Probando nuestras builds en más de un SO
 4. 🔗 Testing con infraestructura y [micro]servicios en Workflows
