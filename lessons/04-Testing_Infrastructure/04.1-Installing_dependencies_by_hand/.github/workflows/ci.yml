@@ -1,30 +1,31 @@
-name: CI
+name: First workflow
 
 on: [push, pull_request]
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install dependencies
-        working-directory: ./lessons/04-Testing_Infrastructure/04.2-Installing_dependencies_by_docker
-        run: make composer-install
+      - name: Hello Codelies!
+        run: echo "Hello!!!! from ${{ github.workflow }} triggered by the ${{ github.event_name }} done by ${{ github.actor }}"
 
-      - name: Start all the environment
-        working-directory: ./lessons/04-Testing_Infrastructure/04.2-Installing_dependencies_by_docker
-        run: make start
-
-      - name: Wait for the environment to get up
+      - name: 😊 More and more
+        env:
+          JOB_CONTEXT: ${{ toJson(job) }}
         run: |
-          while ! make ping-mysql; do
-              echo "Waiting for database connection..."
-              sleep 2
-          done
+          echo "Job Context: $JOB_CONTEXT"
+          echo "Done!"
+
+      - name: Install infra dependencies
+        run: sh etc/install.sh
+
+      - name: Install application dependencies
+        working-directory: ./lessons/04-Testing_Infrastructure/04.1-Installing_dependencies_by_hand
+        run: composer install --ignore-platform-reqs
 
       - name: Run the tests
-        working-directory: ./lessons/04-Testing_Infrastructure/04.2-Installing_dependencies_by_docker
-        run: make test
+        working-directory: ./lessons/04-Testing_Infrastructure/04.1-Installing_dependencies_by_hand
+        run: composer phpunit
